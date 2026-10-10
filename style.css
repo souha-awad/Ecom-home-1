@@ -1,0 +1,153 @@
+.ecoms{
+    opacity:0.5;
+    transition: opacity 0.3s ease;
+}
+.ecoms:hover
+{
+    opacity:1;
+}
+.btn-shop-now{
+    background-color:#fd9636 !important;
+    color: aliceblue !important;
+}
+.btn-shop-now:hover{
+    background-color:#425A8B !important;
+    color: aliceblue !important;
+}
+.btn-shop-now-1{
+    background-color: #425A8B;
+}
+.btn-shop-now-1:hover{
+    background-color:#fd9636;
+}
+
+.card-ecom:hover
+{
+    transform:scale(1.03);
+
+    
+}
+.list-item-2 {
+    color:rgb(140, 158, 197) ;
+}
+.list-item-2:hover {
+    color:#425A8B;
+    font-weight: 600;
+}
+.border-cards{
+    border-color:rgb(140, 158, 197)  ;
+}
+.border-cards:hover{
+    border-color:#425A8B !important;
+          transform:scale(1.02);
+}
+.border-card-2
+{
+     color:#425A8B;
+     background-color: white;
+
+}
+.border-card-2:hover
+{
+     color:white;
+     background-color:#425A8B;
+      transform:scale(1.05);
+}
+
+.btn-shop-now-3:hover{
+    color:white;
+    background-color: #425A8B !important;
+}
+.btn-shop-now-1:hover{
+    background-color:#425A8B !important;
+}
+@media(min-width:992px) 
+
+{
+.row-cols-lg-10>*
+{
+    flex:0 0 auto !important;
+    width: 10% !important;
+}
+
+}
+
+@media (min-width: 992px) {
+  .row-cols-lg-9 > * {
+    flex: 0 0 auto !important;
+    width: calc(100% / 9) !important; /* تقسيم العرض على 9 حصص متساوية */
+  }
+}
+.add-to-cart-btn{
+    display: none !important;
+}
+.card:hover .progress-1
+{
+    display: none !important;
+}
+
+.cart:hover .add-to-cart-btn
+ {
+  display: block !important;
+}
+.trends1{
+    border: 0px !important;
+}
+.trends1:hover{
+border:1px  solid !important;
+border-color: #425A8B !important;
+    border-radius: 5px  !important;
+
+
+}
+.trends1 .border-card-4{
+    display: none !important;
+}
+.trends1:hover .border-card-4{
+    display:block !important;
+    color:white;
+    background-color: #425A8B;
+    border-radius: 10px  !important;
+}
+.card-edg:hover{
+          transform:scale(1.03) !important;
+
+}
+
+
+.btn-shop-now-1:hover{
+    background-color:#425A8B;
+    color: aliceblue;
+}
+.btn-learn-1{
+    color: #425A8B;
+}
+.btn-learn-1:hover{
+  color:#fd9636 !important;
+}
+
+
+
+
+
+.border-cards-2:hover
+{
+    color: white !important;
+    background-color: #425A8B !important;
+}
+.border-scroll
+{
+    border-color: orangered !important;
+}
+.hide-scrollbar::-webkit-scrollbar{
+width: 0px;
+height: opx;
+background: transparent;
+display: none;
+}
+.border-cards-1:hover{
+    border-color: #fd9636 !important;
+    transform:scale(1.01) !important;
+
+}
+
